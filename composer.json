@@ -2,6 +2,16 @@
   "name": "sushilk/ci",
   "description": "Code, types coverage",
   "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\Test\\": "tests/"
+    }
+  },
   "require-dev": {
     "phpunit/phpunit": "^12.0",
     "phpstan/phpstan": "^2.0",
