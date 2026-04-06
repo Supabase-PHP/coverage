@@ -1,6 +1,5 @@
 includes:
     - vendor/phpstan/phpstan/conf/bleedingEdge.neon
-    - vendor/tomasvotruba/type-coverage/config/extension.neon
 
 parameters:
     level: max
