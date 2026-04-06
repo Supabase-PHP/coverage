@@ -15,6 +15,12 @@
   "require-dev": {
     "phpunit/phpunit": "^12.0",
     "phpstan/phpstan": "^2.0",
-    "vimeo/psalm": "^6.0"
+    "phpstan/extension-installer": "^1.0",
+    "tomasvotruba/type-coverage": "^2.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "phpstan/extension-installer": true
+    }
   }
 }
