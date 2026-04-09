@@ -1,6 +1,3 @@
-includes:
-    - vendor/tomasvotruba/type-coverage/config/extension.neon
-
 parameters:
     level: max
     paths:
