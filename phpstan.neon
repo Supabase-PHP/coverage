@@ -1,5 +1,5 @@
 includes:
-    - vendor/phpstan/phpstan/conf/bleedingEdge.neon
+    - vendor/tomasvotruba/type-coverage/config/extension.neon
 
 parameters:
     level: max
@@ -8,9 +8,8 @@ parameters:
         - tests
 
     type_coverage:
-        min_percentage: 90
-        return: 80
-        param: 80
-        property: 80
+        return_type: 80
+        param_type: 80
+        property_type: 80
         constant: 80
         declare: 100
