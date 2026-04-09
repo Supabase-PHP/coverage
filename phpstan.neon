@@ -8,6 +8,7 @@ parameters:
         - tests
 
     type_coverage:
+        min_percentage: 90
         return: 80
         param: 80
         property: 80
